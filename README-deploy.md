@@ -94,3 +94,10 @@ Sau khi deploy thành công, bạn sẽ nhận được một URL cho ứng dụ
 5. **Gắn domain từ Namecheap**.
 
 Với các bước trên, bạn có thể deploy ứng dụng của mình lên AWS Elastic Beanstalk và sử dụng domain từ Namecheap để trỏ đến ứng dụng của bạn.
+
+
+
+```
+docker tag it-tools:latest nghiahsgs/dev-tools:latest
+docker push nghiahsgs/dev-tools:latest
+```

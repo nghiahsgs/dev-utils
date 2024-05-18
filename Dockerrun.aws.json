@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-      "Name": "corentinth/it-tools:latest",
+      "Name": "nghiahsgs/dev-tools:latest",
       "Update": "true"
     },
     "Ports": [
