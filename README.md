@@ -125,3 +125,16 @@ Contributor graph is generated using [contrib.rocks](https://contrib.rocks/previ
 ## License
 
 This project is under the [GNU GPLv3](LICENSE).
+
+
+
+
+Build Docker image cục bộ:
+```
+docker build -t it-tools:latest .
+```
+
+Chạy Docker container cục bộ
+```
+docker run -d --name it-tools --restart unless-stopped -p 8080:80 it-tools:latest
+```
