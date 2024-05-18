@@ -2,7 +2,7 @@
     "AWSEBDockerrunVersion": "1",
     "Image": {
       "Name": "nghiahsgs/dev-tools:latest",
-      "Update": "true"
+      "Update": "false"
     },
     "Ports": [
       {

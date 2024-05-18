@@ -57,8 +57,10 @@ Trong thư mục gốc của dự án của bạn (thư mục chứa các tệp 
 
 3. **Tạo một môi trường Elastic Beanstalk**:
    ```bash
-   eb create your-environment-name
+   eb create dev-tools-env
    ```
+   xoá nó nếu lỗi
+   eb terminate dev-tools-env
 
 ### Bước 5: Deploy ứng dụng
 
